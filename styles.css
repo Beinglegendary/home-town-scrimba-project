@@ -44,15 +44,15 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
+  width: 100px;
   border-radius: 50%;
 }
 
 .main {
   max-width: content-fit;
-  max-height: 600px;
+  max-height: content-fit;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   align-items: center;
 
@@ -74,7 +74,7 @@ p {
 
 #total {
   border: 5px solid white;
-  margin: 20px;
+  margin: 10px;
 border-radius: 20px;
 }
 
@@ -95,7 +95,28 @@ border-radius: 10px;
 }
 
 .text{
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
   color: white;
+    text-shadow: 0 5px black;
+}
+
+
+.text2{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+  text-decoration-style: wavy;
+  text-shadow: 0 5px black;
+  padding: 10px;
+
+}
+
+
+.text3{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+    text-shadow: 0 5px black;
 }
