@@ -55,13 +55,12 @@ img {
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
-
 }
 
 .child {
   display: flex;
   flex-direction: column;
-background-color: white;
+  background-color: white;
 }
 
 h3 {
@@ -75,48 +74,43 @@ p {
 #total {
   border: 5px solid white;
   margin: 10px;
-border-radius: 20px;
+  border-radius: 20px;
 }
 
-
-#pic{
+#pic {
   width: 150px;
 }
 
-
-.card{
+.card {
   width: 400px;
-  border-bottom:  7px solid black;
+  border-bottom: 7px solid black;
   margin: 90px auto;
   padding: 20px;
   display: flex;
-background-color: blue;
-border-radius: 10px;
+  background-color: blue;
+  border-radius: 10px;
 }
 
-.text{
+.text {
   font-size: 30px;
   font-weight: bold;
   color: white;
-    text-shadow: 0 5px black;
+  text-shadow: 0 5px black;
 }
 
-
-.text2{
+.text2 {
   font-size: 16px;
   font-weight: bold;
   color: white;
   font-style: italic;
-  text-decoration-style: wavy;
-  text-shadow: 0 5px black;
+  text-decoration-style: solid;
+  text-shadow: 0 4px black;
   padding: 10px;
-
 }
 
-
-.text3{
+.text3 {
   font-size: 20px;
   font-weight: bold;
   color: white;
-    text-shadow: 0 5px black;
+  text-shadow: 0 5px black;
 }
